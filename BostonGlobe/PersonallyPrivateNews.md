@@ -1,5 +1,21 @@
 
 
+
+
+=========================
+some food for thought:
+
+
+# Concept: HyperPersonalNews
+
+Could use identity from user account with the app to - by permission - access profile attributes to tailor, customize or recommend personalization based on a significant number of individual identity anchor points (see the following identity “attributes” as examples of the types of personalization data each user could authorize access to see so the app can customize news based on the address of the user, or custom attributes can be used as well, including to their “profile pages” on Facebook, LinkedIn, GooglePlus, etc so the key words in a large range of additional personal information can be harvested.  
+ 
+It is also possible to use a non-globe service where users can “store” their profile and/or identity attribute information.  In this case, the best practice would be to use a “personal data store” aka PDS.  In this way, the users maintain control over sharing preferences and which apps or services are granted permission.  For this capability, we could possibly set up a service for the app with our Media Lab open source pds and connect it to the App’s user accounts via OpenID Connect “user end-points”.  Check out: http://openpds.media.mit.edu/ 
+
+
+-------------
+NOTEES FROM FRIDAY (Selected):
+
 ------------
 Rough Plan: 
 zSuccess Metrics - 
@@ -64,18 +80,6 @@ Boston Globe to build a mobile tool that explores the use of data collection for
 		2. Demonstrate/evaluate web 2.0 (OAuth2/REST open architecture) end-point based design patterns so you can have an agile re-purposable infrastructure and pivot to other business models  / opportunities quick/easy (like a ballerina) 
 			Identity system is an object with standard inputs and outputs 
 
-
-
-
-=========================
-some food for thought:
-
-
-# Concept: HyperPersonalNews
-
-Could use identity from user account with the app to - by permission - access profile attributes to tailor, customize or recommend personalization based on a significant number of individual identity anchor points (see the following identity “attributes” as examples of the types of personalization data each user could authorize access to see so the app can customize news based on the address of the user, or custom attributes can be used as well, including to their “profile pages” on Facebook, LinkedIn, GooglePlus, etc so the key words in a large range of additional personal information can be harvested.  
- 
-It is also possible to use a non-globe service where users can “store” their profile and/or identity attribute information.  In this case, the best practice would be to use a “personal data store” aka PDS.  In this way, the users maintain control over sharing preferences and which apps or services are granted permission.  For this capability, we could possibly set up a service for the app with our Media Lab open source pds and connect it to the App’s user accounts via OpenID Connect “user end-points”.  Check out: http://openpds.media.mit.edu/ 
 
 
 _____________
