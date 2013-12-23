@@ -20,3 +20,7 @@ Axiomatic Points:
     2) the notion of an exchange market for innovation (a "trust network" of sorts)  
 * Synergies with Tim Rowe of Cambridge Innovation Center (CIC) 
 * Synergies with Joi Ito and his interest to promote innovation via creative IP arrangements
+----
+# This Idea could be a great segment for "The Show" (IAP project this January).  Here is some info on that:
+* Background: [https://github.com/dazzaji/TheShow](https://github.com/dazzaji/TheShow) for the primary files  
+* Project initial anchor blog post at: [https://ecitizen.mit.edu/TheShow](https://ecitizen.mit.edu/TheShow)   Sandy gave thumbs up to the text at ecitizen.mit.edu and I'm fixing to submit it later today to the IAP registration system...
