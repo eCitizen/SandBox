@@ -1,6 +1,8 @@
 
+# Basic Segment Content 
+## Media Mgmt Taxonomy
+* From March 10, 2013 Concept Notes and Prototype on Wordpress   
 
-# Basic Segment Content and Media Mgmt Taxonomy
 
 **Briefing Bullets**   
 - News updates, reviews and previews	  
