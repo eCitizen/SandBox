@@ -49,13 +49,17 @@ Think about the Google Flu data, we have never before had detailed recorded info
 The CDC gets reports from doctors, but not everyone goes to the doctor when they have the flu, they don’t go right away, and the CDC only collects a sample of all flu outbreaks.
 It is much easier to type “do i have the flu” on Google and less than a second later have a search result than to trudge into the doctor. Therefore, Google data contain trends that are more comprehensive than the CDC data.
 
-With that said, one still has to be very careful about making predictions from Big Data, because even datasets containing Trillions of records could have biases. For example, Google Flu probably does not do a very good job predicting Flu outbreaks in the Amish community, since they most likely do not use Google. 
 
-Google Flu also brings up some of the potential privacy issues that Big Data often raises. When the AIDS virus first appeared in the 80’s, people did not fully understand how it was transferred, and a lot of AIDS patients were treated very poorly by their friends, family, and doctors. One can easily imagine a dystopian state where you type the wrong thing into the search engine and the authorities are banging on your door in 15 minutes. 
+With that said, one still has to be very careful about making predictions from Big Data, because even datasets containing Trillions of records could have biases. For example, Google Flu probably does not do a very good job predicting Flu outbreaks in the Amish community, since they most likely do not use Google. Even with Big Data, a scientists need to test and validate their predictions.
+
+Google Flu also brings up some of the potential privacy issues that Big Data often raises. When the AIDS virus first appeared in the 80’s, people did not fully understand how it was transferred, and a lot of AIDS patients were treated very poorly by their friends, family, and doctors. One can easily imagine a dystopian state where you type your symptoms into the search engine and the authorities are banging on your door in 15 minutes. That doesn't mean we should be fearful of Big Data, it just means that we need to design better systems to help protect ourselves from the potentially negative effects of Big Data.
 
 
 
-there have been 
+So What is Big Data? 
+
+It is a broad term that discusses the promise from our the ability to track and store more information and to process it efficiently. It is an example of more being better, but like any amazing new technology, it needs to be applied intelligently.
+
 
 Example Waze
 The challenges, promises, and dangers posed by big data can be seen in the rise of the newest mapping  apps most notably Waze.
