@@ -1,4 +1,6 @@
-Hi I'm David Sendor, and I am a Data Scientist. I use data of all types to help people make better decisions. I am especially interested in helping people who do not have tech backgrounds understand the world of data analytics and how to use data to improve their lives.
+Hi I'm David Sendor, and I am a Data Scientist. I use data to help people make better decisions. 
+
+I am especially interested in helping people who do not have tech backgrounds understand the world of data analytics and how to use data to improve their lives.
 
 A term you have probably been hearing a lot these days is big data. 
 
@@ -8,9 +10,11 @@ So What is  Big Data?
 Big Data is a term that describes the combination of a number of different technologies that, WHEN combined, greatly improve our ability to store, process, and analyze huge amounts of data and in doing so learn things that we have never been able to learn before with other techniques.
 
 Because Big Data is so powerful, it is used by many different types of people, who are using it to do many different things, and sometimes talk about it in very different ways. This can get confusing for some people.
-For this reason, I believe it is important to understand the concepts behind big data, and to talk about it through an example.
+For this reason, I believe it is important to understand the concepts behind big data, and to talk about them through an example.
 
-A great example of big data is Google Flu, which is the research Google has done to analyze its users search patterns to predict flu outbreaks.
+A great example of big data is Google Flu. 
+
+Google Flu is the research Google has done to analyze its users search patterns to predict flu outbreaks.
 
 The US Center for Disease Control, or CDC, tracks the spread of the flu in the US during flu season by location and time and uses its historical data as well as reports from doctors to predict where the flu will spread and when. 
 
@@ -38,7 +42,7 @@ Some people have them nicely organized and indexed in albums, but most of us hav
 
 
 
-Then came the digital camera revolution, and we could much more easily store and organize all of our photos.
+Then, around the turn of the millennium, came the digital camera revolution, and we could much more easily store and organize all of our photos.
 However, initially the photos that we took were not very good quality.  They were low resolution images. this was partially because the image sensors weren't very good yet, but also because it was expensive to store high resolution photos.  Lower resolution photos throw out a lot of the detail in photos to make them easier to store on a computer and send over the internet.  
 
 These days anyone can store thousands of high resolution photos on their computer or the cloud for very little money.
@@ -82,7 +86,7 @@ MapReduce and the open source variant of it called Hadoop are one of the biggest
 Think about a Google search for instance. Google farms out its requests to a lot of servers. It is estimated that a single Google search engine query uses 1,000 servers and takes about 0.2 seconds. 
 (Quora http://www.quora.com/Google/How-many-processors-does-a-Google-search-query-touch )
 
-This means that if I type in “number of times voldemort mentioned in harry potter” into Google,  I am accessing 1,000 computers at once and getting an answer from Google almost instantly. By the way according to one fan website, Voldemort is mentioned 1,250 times in the books. 
+This means that if I type in “number of times Voldemort mentioned in harry potter” into Google,  I am accessing 1,000 computers at once and getting an answer from Google almost instantly. By the way according to one fan website, Voldemort is mentioned 1,250 times in the books. 
 (http://memes.mugglenet.com/Harry+Potter+Funny+Pics/The-Amount-Of-Times-Voldemort-Is-Mention/2401)
 
 Now let’s assume that you are a Google data scientist and are trying to forecast flu outbreaks. The first step would be to look at how common flu related queries in particular area are compared to other non flu related queries in that area.   
@@ -113,8 +117,13 @@ The CDC gets reports from doctors, but not everyone goes to the doctor when they
 It is much easier to type “do i have the flu” on Google and less than a second later have a search result, than to trudge in to the doctor. Therefore, Google's data contain trends that are likely more comprehensive than the CDC data.
 
 
-With that said, one still has to be very careful about making predictions from Big Data, because even datasets containing Trillions of records could have biases. For example, Google Flu probably does not do a very good job predicting Flu outbreaks in the Amish community, since they most likely do not use Google. 
+With that said, one still has to be very careful about making predictions from Big Data, because even datasets containing Trillions of records could have biases. 
+For example, what if there is a large Flu outbreak on the West Coast that is mentioned a lot in the news, and even before it spreads to the East Coast, the hypochondriacs on the East Coast start typing Flu terms into Google. Obviously this can be accounted for in the model, but if the historical data used to create the model did not take this factor into account, the model will be biased.
+
+Also for example, Google Flu probably does not do a very good job predicting Flu outbreaks in the Amish community, since they most likely do not use Google. 
+
 I'm sure that if you thought about it, you could also probably come up with some other potential biases in Google Flu.
+
 Even with Big Data,  scientists need to test and validate their predictions and think about the real world implications of the results.
 
 
@@ -131,26 +140,3 @@ It is a broad term that discusses the promise from our the ability to track and 
 It is an example of more being better, and the Google Flu example shows how revolutionary its potential is.
 but like any amazing new technology, it needs to be applied intelligently, and so I strongly encourage you to learn more about it, about the techniques being used to store, process, and analyze the data, other examples of big data, and the limitations and potential problems with Big Data.
 
-
-Example Waze
-The challenges, promises, and dangers posed by big data can be seen in the rise of the newest mapping  apps most notably Waze.
-
-/*
-The velocity of the data, the speed at which it is coming in, has increased significantly. We need faster storage and techniques for handling 
-
-The type of data being stored is also different. Instead of just pictures, or sales data, we have pictures, with comments
-Hierarchical systems don’t work as well. 
-
-
-http://blogs.loc.gov/digitalpreservation/2012/03/how-many-libraries-of-congress-does-it-take/
-*/
-
-GPS systems are an amazing tool.
-The first generation of GPS systems told you how to get from point A to point B in the fastest time based on the distance and average road speed. In general, this works very well, however it might take you straight into downtown during rush hour
-The second generation started to take into account historical traffic and occasionally real time traffic of major routes on an aggregated level. If it is 5 o clock on a weekday, the GPS might know that on average, it takes 30 minutes to drive through downtown, but only 15 minutes to go around downtown.
-The third generation adds in the real time speeds of all the cars in the network to get an up to date crowdsourced map of traffic.  
-If enough users are using the 3rd generation services, the system will know that there is a car accident well before the news knows it and will be able to start rerouting cars.
-The volume and velocity of data required to perform this analysis is incredible.
-In generation 1, the system needs to know the map itself, and the road speeds.
-In generation 2, the system needs to compute and add the traffic and 
-On average, cars traveling through downtown during rush hour take 30 minutes, however a car just took 45 minutes to travel through the downtown area, and the cars in the center of downtown have slowed to a crawl. The system then knows to retoute you.
