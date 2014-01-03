@@ -10,16 +10,20 @@ So What is  Big Data?
 Big Data is a term that describes the combination of a number of different technologies that, WHEN combined, greatly improve our ability to store, process, and analyze huge amounts of data and in doing so learn things that we have never been able to learn before with other techniques.
 
 Because Big Data is so powerful, it is used by many different types of people, who are using it to do many different things, and sometimes talk about it in very different ways. This can get confusing for some people.
+
 For this reason, I believe it is important to understand the concepts behind big data, and to talk about them through an example.
+
+[BREAK]
 
 A great example of big data is Google Flu. 
 
 Google Flu is the research Google has done to analyze its users search patterns to predict flu outbreaks.
 
-The US Center for Disease Control, or CDC, tracks the spread of the flu in the US during flu season by location and time and uses its historical data as well as reports from doctors to predict where the flu will spread and when. 
+The US Center for Disease Control, or CDC, tracks the spread of the flu in the US by location and time and uses its historical data as well as reports from doctors to predict where the flu will spread and when. 
 
-Google took the CDC flu data and compared it to all the searches that its users did on flu symptoms. For example someone might type in “nausea and runny nose”. 
+Google took the CDC flu data and compared it to all the searches that its users did on flu symptoms. For example someone might search for “nausea and runny nose”. 
 
+[SCREENSHOTS OF GOOGLE FLU]
 Google found that its search queries can more accurately and quickly predict Flu outbreaks than the CDC data alone. 
 
 
@@ -28,37 +32,49 @@ This is the promise that Big Data holds. The CDC has brilliant statisticians and
 
 Google though, has more data.
 
-
-
 Google Flu is a great example that can show the promises, challenges, and even the dangers posed by big data.
 
+
+
+[BREAK]
+
 Storing big data
+
 The first technological improvement that has led to Big Data, is our ability to store huge amounts of data very cheaply.
 
 We used to throw out most of our data. Sometimes without even realizing that we were throwing them out.
 
+[TIME CHRONOLOGY OF CAMERAS]
+
 Think about the hard copy pictures from your childhood and your parents’ childhood.
 Some people have them nicely organized and indexed in albums, but most of us have them in shoeboxes. Not easily accessible. 
 
-
-
+[TIME]
 Then, around the turn of the millennium, came the digital camera revolution, and we could much more easily store and organize all of our photos.
+
 However, initially the photos that we took were not very good quality.  They were low resolution images. this was partially because the image sensors weren't very good yet, but also because it was expensive to store high resolution photos.  Lower resolution photos throw out a lot of the detail in photos to make them easier to store on a computer and send over the internet.  
 
+[TIME]
 These days anyone can store thousands of high resolution photos on their computer or the cloud for very little money.
 
-We are also recording much more information than in the past, due to the ubiquity of cheap sensors such as smartphones and social networks where we store much of our thoughts and experiences in a centralized location.
+[We are also recording much more information than in the past, due to the ubiquity of cheap sensors such as smartphones and social networks where we store much of our thoughts and experiences in a centralized location.]
 
-Think about the number of times that you saw something amazing, for instance your young child says or does something funny, and you wished you had a camera. Now that everyone has a smartphone, those occasions have decreased greatly. But if you think about it, when something amazing happens, and you don't record it, it is stored in your brain, which may be sufficient or even preferable, but in an extreme view of data, you can sort of see not recording this experience as throwing it away.
+Think about the number of times that you saw something amazing, 
+for instance your young child says or does something funny, and you wished you had a camera. 
+Now that everyone has a smartphone, you almost always have a camera available.
+ But if you think about it, when something amazing happens, and you don't record it, it is stored in your brain, which may be sufficient or even preferable, but in an extreme view of data, you can sort of see not recording this experience as actually throwing it away.
 
 
 
 Google stores a huge percentage of the internet’s data both as indexes to search from and caches or copies of webpages.
-According to an estimate by Randall Munroe of xkcd fame, Google has 10 to 15 exabytes of data storage. What does that mean? If you assume that a decently high resolution image is about 1 megabytes, that means google can store more than 2000 pictures for every person on this planet.
+According to an estimate by Randall Munroe of xkcd fame, Google has 10 to 15 exabytes of data storage. What does that mean? If you assume that a decently high resolution image is about 1 megabyte, that means google can store more than 2000 pictures for every person on this planet.
 
 Another way of looking at it is that is more than 1 million times the text stored in the books in the Library of Congress. FIX
 
 (assuming the LOC has 10 terabytes of textual data http://en.wikipedia.org/wiki/List_of_unusual_units_of_measurement#Bibles.2C_Encyclopaediae.2C_and_the_Library_of_Congress:_data_volume http://blogs.loc.gov/digitalpreservation/2012/03/how-many-libraries-of-congress-does-it-take/ it is important to note that if one took into account all LOC media, it would be much more than 10 terabytes)
+
+
+[BREAK]
 
 Processing
 
@@ -66,27 +82,30 @@ You cannot just store the data though. You also need to access it and do somethi
 
 To handle this much data requires a lot of computing power. 
 
-The biggest advance in this area has been the development of systems that can parrallelize data and processes across multiple computers. 
+The biggest advance in this area has been the development of systems that can split up and parrallelize data and processes across multiple computers. 
 
 Let’s say, for example, you are trying to count the number of times Voldemort is mentioned in all 7 Harry Potter books, and you don’t have a computer to count for you.
 
 There are about 1 million words in all 7 books. 
-Let’s assume you can scan about 10 words per second, that means it will take you about 28 hours to find all instances of Voldemort. 
+Let’s assume you can scan about 10 words per second, 
+that means it will take you about 28 hours to find all instances of Voldemort. 
 
 Now let’s assume that you have 6 friends who are willing to help you, and you assign one book to each person in your party of 7. Now it will take much less time.  
 
 If each book was the same length, it would take you 4 hours. Since 28 divided by 7 is 4. 
 
-However since some of the books are much longer than others, it will take the person reading the 5th book much longer than the person reading the 1st book, but you will still have a much faster process.
+However since some of the books are much longer than others, it will take the person reading the 5th book much longer than the person reading the 1st book, but you will still have a much faster if slightly inefficient process.
 
 To speed up its search and indexing process, Google created a computer program that very efficiently splits up tasks amongst multiple computers. This program is called MapReduce.
 
-MapReduce and the open source variant of it called Hadoop are one of the biggest factors, if not the biggest factor, that led to the Big Data revolution. 
+MapReduce and the open source variant of it called Hadoop are one of the biggest factors, that led to the Big Data revolution. 
 
 Think about a Google search for instance. Google farms out its requests to a lot of servers. It is estimated that a single Google search engine query uses 1,000 servers and takes about 0.2 seconds. 
 (Quora http://www.quora.com/Google/How-many-processors-does-a-Google-search-query-touch )
 
-This means that if I type in “number of times Voldemort mentioned in harry potter” into Google,  I am accessing 1,000 computers at once and getting an answer from Google almost instantly. By the way according to one fan website, Voldemort is mentioned 1,250 times in the books. 
+This means that if I type in “number of times Voldemort mentioned in harry potter” into Google,  I am accessing 1,000 computers at once and getting an answer from Google almost instantly. 
+[PHOTO]
+By the way according to one fan website, Voldemort is mentioned 1,250 times in the books. 
 (http://memes.mugglenet.com/Harry+Potter+Funny+Pics/The-Amount-Of-Times-Voldemort-Is-Mention/2401)
 
 Now let’s assume that you are a Google data scientist and are trying to forecast flu outbreaks. The first step would be to look at how common flu related queries in particular area are compared to other non flu related queries in that area.   
