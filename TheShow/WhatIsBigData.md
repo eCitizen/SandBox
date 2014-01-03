@@ -1,6 +1,11 @@
-Hi I'm David Sendor, and I am a Data Scientist. I use data to help people make better decisions. 
+{INTRO}
+Hi I'm David Sendor, and I am a Data Scientist. 
+I use data to help people make better decisions. 
 
 I am especially interested in helping people who do not have tech backgrounds understand the world of data analytics and how to use data to improve their lives.
+
+
+[BREAK]
 
 A term you have probably been hearing a lot these days is big data. 
 
@@ -118,7 +123,7 @@ Let’s say that you had a decently fast computer that could search 10 million r
 
 Now Instead, of running the query on one server, Google uses MapReduce to split up the database and has lots of computers do the analysis. It tells the first computer to work on the first 100 million records, the second computer search through the second 100 million records, and so on.  Then, instead of taking 2 days, it takes 20 thousand processors 10 seconds total to finish your query. And frankly, considering Google's computer power and optimizations, it will probably take less than a second for them to do this query.
 
-
+[BREAK]
 
 Finally there is analysis.
 
