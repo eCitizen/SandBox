@@ -1,18 +1,20 @@
 {INTRO}
-Hi I'm David Sendor, and I am a Data Scientist. 
-I use data to help people make better decisions. 
+Hi This is David Sendor, for the MIT Media Lab's eCitizen Show,
+I am a Data Scientist, which I take to mean that I use data to help people make better decisions. 
 
-I am especially interested in helping people who do not have tech backgrounds understand the world of data analytics and how to use data to improve their lives.
+I am particularly interested in helping people who do not have tech backgrounds understand the world of data analytics and how to use data to improve their lives.
 
 
 [BREAK]
+Intro to BIG DATA
 
 A term you have probably been hearing a lot these days is big data. 
 
 So What is  Big Data?
  and Why is it so important?
 
-Big Data is a term that describes the combination of a number of different technologies that, WHEN combined, greatly improve our ability to store, process, and analyze huge amounts of data and in doing so learn things that we have never been able to learn before with other techniques.
+Big Data is a term that describes the combination of a number of different technologies that, WHEN combined, greatly improve our ability to store, process, and analyze huge amounts of data 
+and in doing so learn things that we have never been able to learn before with other techniques.
 
 Because Big Data is so powerful, it is used by many different types of people, who are using it to do many different things, and sometimes talk about it in very different ways. This can get confusing for some people.
 
