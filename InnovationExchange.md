@@ -1,5 +1,8 @@
 # MIT Human Dynamics Lab: Notes on David Sendor-Israel's Innovation Exchange Concept
 
+Update March 18, 2014: Sandy mentioned a desired to work on innovation systems today at the group research meeting.  I sent the innovation exchange idea and mentioned it.  He suggested looking at honey bee network in india.  See:  http://en.wikipedia.org/wiki/National_Innovation_Foundation_-_India 
+
+_____
 
 Axiomatic Points:
 
@@ -8,7 +11,7 @@ Axiomatic Points:
 <li> An efficient market for patents would be of value to many stakeholders and society at large  
 -----
 
-## Resoources:
+## Resources:
 
 * The Innovation Exchange [Full Outline](InnovationExchangeOutline.md)  
 * The Innovation Exchange PPT Presentation   
