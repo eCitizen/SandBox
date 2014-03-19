@@ -1,4 +1,3 @@
-
 ... in sum: I think some White House announcements echoed by MIT, NYU blasts to those who expressed interest in the first two in person workshops and - importantly - also by UC Berkeley to those who are expressing interest in the next/last/3rd workshop happening April 1 in the East Bay... and from there just a normal media campaign via friends, family and friendly tribes (American Bar Association and state bar groups, Tech trade associations, PolySci groups, blogs/twitter, etc to pump up engagement.... students might be key).  That is the secret plan.  Plus... really fun hangouts that periodically punctuate the feedback to provide a) exploration of the trends and insight to the contributions to date, b) inviting popular or especially interesting contributions to join in a hangout or prior call or email etc to describe the ideas more and relate the idea or question to other contributions or topics and using hangouts to do deeper engagement and give natural break-points for "rounds" of feedback enabling potentially self-organizing synthsis, teams gathering behind ideas, maybe some sort of incentives to form coalitions or other tools for people to discover and adapt to one another in dynamic idea flow...
 
 
@@ -113,13 +112,10 @@ i'm sure a lot of people have already created content
  
 **Dazza:**  i have a good relationship with the loomio folks.  good people.  and a great tool.
 
+...
 
-PART II
+ If you are game, I observe that between a) tracking down the india bee thing and perhaps dusting off the Innovation Exchange and b) helping out a little with brainstorming big data and rating-based (bubble up) approaches to the Big Data policy making project you have a red carpet agenda to sit down with Sandy for a nice conversation and exchange on creative uses and new directions in data science...
 
-
-**Dazza:**  If you are game, I observe that between a) tracking down the india bee thing and perhaps dusting off the Innovation Exchange and b) helping out a little with brainstorming big data and rating-based (bubble up) approaches to the Big Data policy making project you have a red carpet agenda to sit down with Sandy for a nice conversation and exchange on creative uses and new directions in data science...
------
- 
 **David:**  sounds good to me
 great actually!
 
