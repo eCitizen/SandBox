@@ -10,13 +10,13 @@ The "Proposed Uniform Law Study" uses instances of stated enacting statutes from
 
  - 6 Columns and 2,877 rows.  The columns: State; Act Name; (Category Will be Added); Promulgated (date proposed by NCCUSL to states); Enacted (data that state enacted that law)
  
- - where did we get the data and who owns it and are there any restrictions on its use?
+ - where did we get the data and who owns it and are there any restrictions on its use? (Came from NCCUSL upon initial request from Ray.  Kate is PoC at NCCUSL.)
 
  - what format and structure is it in now? 
  
  - what analysis has been/is being/could be done?
  
-What analysis has been done?  What problems and prospects has have been revealed so far?
+## What tools have been done and what analysis has been done?  What problems and prospects has have been revealed so far?
  
 What is the idea for analysis once the data is fully ready and what are the next steps?
  
