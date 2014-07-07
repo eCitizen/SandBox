@@ -1,12 +1,19 @@
-{\rtf1\ansi\ansicpg1252\cocoartf1138\cocoasubrtf510
-{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
-{\colortbl;\red255\green255\blue255;}
-\margl1440\margr1440\vieww10800\viewh8400\viewkind0
-\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural
 
-\f0\fs24 \cf0 	The scope of this assignment is to use the contents of a web form to populate a Sched.org session and to populate a new blogpost on WordPress.\
- \
-	The goal is to get data from the web form and use it to trigger the creation of a session in Sched.org. To create a session on Sched.org, the following API is used: the session name, description, time, event type and venue. All sessions on Sched.org should be published under a generic default account/speaker. \
-\
-	We also ask that the web form data trigger the automated publication of a WordPress Blog Post for each corresponding session. This blog post should contain a title. The content or body of the blogpost will contain the session description data pulled from the web form, a link to the corresponding sched.org event, and (is possible) the embed codes of the following distributed heterogenous services: Google Hangout, either Hackpad or EtherPad, and an IRC chat.  \
-}
+The scope of this assignment is 1) to enable users to propose and rate topics for discussion, and 2) using the data and metadata from top rated topics to auto-populate and publish a Wordpress blog post and corresponding sched.org event session.
+
+
+1. Self-Organizing Topics of Discussion	
+
+The intention is to use model aspects of "open space" unconference style self-organizing conference session.  The idea is to use data from a web form or other simple user contribution method to gather a range of proposed topics such that users may easily review and rate each proposal.  The process initially will likely be a simple sort by rating of topics in order to provide a measure of general interest or a mechanism for prioritization of which topics will be provided online conference sessions.  
+
+2. Reduced Manual Steps and More Automation for Publishing Schedule and Blog Post	
+	use it to trigger the creation of a session in Sched.org. To create a session on Sched.org, the following API is used: the session name, description, time, event type and venue. All sessions on Sched.org should be published under a generic default account/speaker. \
+
+	We also ask that the web form data trigger the automated publication of a WordPress Blog Post for each corresponding session. This blog post should contain a title. The content or body of the blogpost will contain the session description data pulled from the web form, a link to the corresponding sched.org event.
+	
+	Optionally and if possible, the code should automatically provision and embed codes for the following d services for each individual session: a Google Hangout, either Hackpad or EtherPad, and an IRC chat.  
+	
+	It is anticipated that later versions of this platform will simply match interested users and session proposers such that all topics with at least one or more registered participants and one or more active session proposer will be automatically provisioned a sched.org published event session and a published event blog post usable as a session collaboration space by the participating users.  
+	
+	
+	
