@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<contract xmlns="urn:oasis:names:tc:eContracts:1:0">
+
+  <title><text>Sample of the five elements at level 1 </text></title>
+
+  <subtitle>This file is to test : - title - sub-title - contract-front -
+       date-block - parties - party - body - back -
+              attachments - attachment
+            </subtitle>
+
+  <contract-front>
+     <date-block>
+       <date><em>Long time ago</em></date>
+     </date-block>
+     <parties>
+       <party></party>
+     </parties>
+  </contract-front>
+
+  <body></body>
+
+  <back></back>
+
+  <attachments>
+    <attachment> </attachment>
+  </attachments>
+
+</contract>
