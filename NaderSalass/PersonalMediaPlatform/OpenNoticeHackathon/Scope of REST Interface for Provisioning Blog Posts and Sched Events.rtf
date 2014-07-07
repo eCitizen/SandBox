@@ -1,19 +1,26 @@
 
+# Scope of Work Overview
+
 The scope of this assignment is 1) to enable users to propose and rate topics for discussion, and 2) using the data and metadata from top rated topics to auto-populate and publish a Wordpress blog post and corresponding sched.org event session.
 
 
-1. Self-Organizing Topics of Discussion	
+# 1. Self-Organizing Topics of Discussion	
 
 The intention is to use model aspects of "open space" unconference style self-organizing conference session.  The idea is to use data from a web form or other simple user contribution method to gather a range of proposed topics such that users may easily review and rate each proposal.  The process initially will likely be a simple sort by rating of topics in order to provide a measure of general interest or a mechanism for prioritization of which topics will be provided online conference sessions.  
 
-2. Reduced Manual Steps and More Automation for Publishing Schedule and Blog Post	
-	use it to trigger the creation of a session in Sched.org. To create a session on Sched.org, the following API is used: the session name, description, time, event type and venue. All sessions on Sched.org should be published under a generic default account/speaker. \
+An example of this functionality has been prototyped in a rough proof of concept for the "unpanel" session of Bleak House to Geek House at: eCitizen.MIT.edu/... 
 
-	We also ask that the web form data trigger the automated publication of a WordPress Blog Post for each corresponding session. This blog post should contain a title. The content or body of the blogpost will contain the session description data pulled from the web form, a link to the corresponding sched.org event.
+# 2. Reduced Manual Steps and More Automation for Publishing Schedule and Blog Post	
+
+The initial round is intended to produce all required data required to publish a Sched.org event and Wordpress blog post corresponding for any session selected by users, including the title, description and person(s) proposing the topics.  Use of the Sched.org REST API is intended as the means to automate creation and publishing of each new session in the relevant event on Sched.org.  As needed, default values can be used such as a single default speaker, vanue, session type and session length/time.  
+
+Each corresponding pair of Sched.org sessions and Wordpress blog posts should be cross-linked to each other.  This may require two steps for one or both services, the first being the creation of a URL for the event on each service by publishing of the post on Sched.org and Wordpress and the second step being the addition of the link in the event description on each service to the event post URL of the other service.  
 	
-	Optionally and if possible, the code should automatically provision and embed codes for the following d services for each individual session: a Google Hangout, either Hackpad or EtherPad, and an IRC chat.  
+# Optional Desired Functions and Flows
+
+Optionally and if possible, the code should automatically provision and embed codes for the following d services for each individual session: a Google Hangout, either Hackpad or EtherPad, and an IRC chat.  
 	
-	It is anticipated that later versions of this platform will simply match interested users and session proposers such that all topics with at least one or more registered participants and one or more active session proposer will be automatically provisioned a sched.org published event session and a published event blog post usable as a session collaboration space by the participating users.  
+It is anticipated that later versions of this platform will simply match interested users and session proposers such that all topics with at least one or more registered participants and one or more active session proposer will be automatically provisioned a sched.org published event session and a published event blog post usable as a session collaboration space by the participating users.  
 	
 	
 	
