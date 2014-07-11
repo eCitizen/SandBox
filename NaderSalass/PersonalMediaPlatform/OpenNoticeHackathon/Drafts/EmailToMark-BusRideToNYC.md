@@ -18,3 +18,5 @@ All that is left is to discuss
 1. changes to navigation : lets do this together at some point.  I need sponsor page used properly so lets talk about this when we do navigation. 
 2. what will be on home page (so people can engage in live event) or should we just forget about making the website usable for the live event at this stage considering where we are now? 
 3. adding featured to session posts when they are finished or live (note - this is not so good as it just creates a grid)  unless there is some posts with instructions. 
+
+- we could take current home page and make it a featured post with a screen shot of sponsors logos and put at the first, but I think the template will move it to last Unless we can number them ( i will check later)
