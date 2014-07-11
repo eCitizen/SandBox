@@ -1,0 +1,3 @@
+- blogpost on enlightenment values and how to express them as machine readable code.
+- blogpost on research of human dynamics team. 
+- iterate plain language blogpost.
