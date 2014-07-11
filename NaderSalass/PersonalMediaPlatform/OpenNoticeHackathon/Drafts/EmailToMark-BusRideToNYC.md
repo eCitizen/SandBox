@@ -1,8 +1,9 @@
 Hey Mark,
 
-We have some suggestions to improve the user flow for the following actions: signing up and viewing the event schedule. We would like to suggest embedding the sched and eventbrite ticket service to the Wordpress CMS and only pointing them to the Wordpress pages. Instead of sending users todatacontrolhack2014.sched.org we should send them to http://opennotice.legalhackathon.org/signup. On that page, users will find an embed of the Eventbrite API. Let me know how this sounds to you.
+We have some suggestions to improve the user flow for signing up (registration). We would like to suggest also embedding the eventbrite registration into an event site page and from here forward pointing people to the same single URL for everything related to the event (eg to register, go to OpenNotice.leg.../blah) and (to registr, just click the 'register' on the top menu of the event site"). 
 
-If you agree, please provide me with the Eventbrite embed code and I can post it on the sign up page.
+Instead of sending users to datacontrolhack2014.sched.org we should send them to http://opennotice.legalhackathon.org/signup. On that page, users will find an embed of the Eventbrite ticket registration. Let me know how this sounds to you.
+
 
 Best,
 Nader
