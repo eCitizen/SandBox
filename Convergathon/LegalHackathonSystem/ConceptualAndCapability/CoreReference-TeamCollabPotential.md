@@ -1,7 +1,9 @@
-
+* See: http://legalhackathon.org/blog/online-hackathon-team-collaboration-potential/
 
 ONLINE HACKATHON TEAM COLLABORATION POTENTIAL
-JUNE 3, 2014 DAZZA GREENWOODEDIT
+
+JUNE 3, 2014 DAZZA GREENWOOD
+
 The common and extensible approach used for this MIT Legal Hackathon is intended to enable cross-team collaborations (of which several are expected, including between the annotation and open data statutes/regulations projects).  By using a common approach, the method of supporting deeper teamwork can be extended to support regularized, simple and frequent cross-team collaborations.
 
 Eventually, the social practices, decision making procedures and technical processes adopted, adapted and evolved to support and reflect ever better cross-team collaboration can be leveraged to achieve to make possible even more innovation and powerful results in even less time.  This potential is worth exploring and considering.
